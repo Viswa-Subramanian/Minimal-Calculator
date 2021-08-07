@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css';
 
 // Screen row component is written as a functional component
 // it receives and displays (in an input field) a props (property) of value from
@@ -6,7 +7,7 @@ import React from 'react';
 const ScreenRow = (props) => {
 return (
 <div className="screen-row">
-<input type="text" readOnly value={props.value}/>
+<input className="inp" type="text" readOnly value={props.value}/>
 </div>
 )
 
