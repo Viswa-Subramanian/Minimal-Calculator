@@ -1,0 +1,9 @@
+.components-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  body{
+    color: bisque;
+  }
